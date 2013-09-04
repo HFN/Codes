@@ -32,7 +32,7 @@ int main()
 	}
 	double cx, cy;
 	cx = (sqr(b) - sqr(c) + 4 * sqr(m)) / 4 / m;
-	cy = sqrt(sqr(b) - sqr(cx));
+	cy = sqrt(sqr(b) - sqr(cx)); 
 	printf("0.00000 0.00000\n");
 	printf("%0.5f %0.5f\n", 2 * m - cx, -cy);
 	printf("%0.5f %0.5f\n", cx, cy);
