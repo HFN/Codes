@@ -29,7 +29,7 @@ int main()
 {
 	ios::sync_with_stdio(false);
     ll n, k, c = 1;
-    cin >> n >> k;
+    cin >> n >> k; 
     if (k == 0)
        cout << 1;
     else
