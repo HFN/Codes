@@ -27,7 +27,7 @@ ll catalan(ll n)
 }
 int main()
 {
-	ios::sync_with_stdio(false);
+	ios::sync_with_stdio(false); 
 	c[0][0] = 1;
 	for (int n = 1; n < MAX; n++)
 	{
