@@ -29,7 +29,7 @@ double ccw(point a, point b, point c)
 {
 	return (b.x - a.x) * (c.y - a.y) - (b.y - a.y) * (c.x - a.x) / 2;
 }
-bool intersect(line l1, line l2)
+bool intersect(line l1, line l2) 
 {
 	double test1 = ccw(l1.a, l1.b, l2.a) * ccw(l1.a, l1.b, l2.b);
 	double test2 = ccw(l2.a, l2.b, l1.a) * ccw(l2.a, l2.b, l1.b);
