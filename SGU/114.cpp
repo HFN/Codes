@@ -21,8 +21,8 @@ const int INF = INT_MAX;
 const int MOD = 1000000007;
 int main()
 {
-	ios::sync_with_stdio(false);
-	float ans = 0;
+    ios::sync_with_stdio(false);
+    float ans = 0;
     int n, x, p, po = 0;
     cin >> n;
     for (int i = 0; i < n; i++)
@@ -33,5 +33,5 @@ int main()
     }
     ans /= po;
     cout << ans;
-	return 0;
+    return 0;
 }
