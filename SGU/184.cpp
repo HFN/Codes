@@ -23,7 +23,7 @@ int main()
 {
     ios::sync_with_stdio(false);
     int p, m, c, k, r, v, n = 10001;
-    cin >> p >> m >> c >> k >> r >> v;
+    cin >> p >> m >> c >> k >> r >> v; 
     if (p / k < n)
        n = p / k;
     if (m / r < n)
