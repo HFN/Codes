@@ -41,7 +41,7 @@ bool isNP (int n)
 }
 int main()
 {
-	  ios::sync_with_stdio(false);
+    ios::sync_with_stdio(false);
     int n, k[10];
     cin >> n;
     for (int i = 0; i < n; i++)
@@ -51,6 +51,5 @@ int main()
         cout << "Yes" << endl;
     else
         cout << "No" << endl;
-    system ("pause");
     return 0;
 }
