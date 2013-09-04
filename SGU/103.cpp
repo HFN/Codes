@@ -60,7 +60,7 @@ void prepare(ll time, node &n)
 		}
 		return;
 	}
-	if (time > n.r)
+ 	if (time > n.r)
 	{
 		time = (time - n.r) % (n.tb + n.tp);
 		n.p = !n.p;
