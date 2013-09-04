@@ -77,7 +77,7 @@ int main()
 		}
 	init();
 	dfs(u);
-	for (int i = 1; i <= n; i++)
+	for (int i = 1; i <= n; i++) 
 		cout << max(d1[i], d2[i]) << endl;
  	return 0;
 }
