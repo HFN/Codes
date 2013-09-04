@@ -23,7 +23,7 @@ const int MOD = 1000000007;
 int main()
 {
     ios::sync_with_stdio(false);
-    double x, y, z;
+    double x, y, z; 
     cin >> x >> y >> z;
     printf("%0.7f", 1 - sqr(abs(x - y) - z / 60) / sqr(x - y));
     return 0;
