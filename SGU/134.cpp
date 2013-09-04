@@ -55,7 +55,7 @@ int main()
     int c = 0;
     for (int i = 1; i <= n; i++)
         if (answer[i] == ans)
-            c++;
+            c++; 
     cout << ans << " " << c << endl;
     for (int i = 1; i <= n; i++)
     	if (answer[i] == ans)
