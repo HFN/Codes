@@ -34,7 +34,7 @@ int main()
 	string s;
 	cin >> s >> n;
 	for (int i = 0; i < s.length(); i++)
-		digit.push_back(s[i] - '0');
+		digit.push_back(s[i] - '0'); 
 	for (int i = 0; i < n; i++)
 		delete_one_digit();
 	for (int i = 0; i < digit.size(); i++)
