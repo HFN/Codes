@@ -1,3 +1,4 @@
+// SGU 105 Div 3
 #include <algorithm>
 #include <iostream>
 #include <cstdlib>
