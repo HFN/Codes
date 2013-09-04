@@ -30,7 +30,7 @@ void dfs(int p, int v)
 		int u = adj[v][i];
 		if (u != p)
 		{
-			dfs(v, u);
+			dfs(v, u); 
 			size[v] = max(size[v], size[v] + size[u]);
 		}
 	}
