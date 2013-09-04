@@ -21,7 +21,7 @@ const int INF = INT_MAX;
 const int MOD = 1000000007;
 int main()
 {
-	ios::sync_with_stdio(false);
+    ios::sync_with_stdio(false);
     string a, b;
     int ap = 0, bp = 0, am = 0, bm = 0, n = 0, ii, jj;
     cin >> a >> b;
