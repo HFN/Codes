@@ -28,7 +28,7 @@ ll bt(int r, int t, int mask)
 	memset(b, false, sizeof(b));
 	bool ad = false;
 	for (int i = mask, x = 1; i > 0; i >>= 1, x++)
-		b[x] = i & 1;
+		b[x] = i & 1; 
 	for (int i = 1; i <= n; i++)
 		if ((b[i] == b[i - 1]) && (b[i]))
 			ad = true;
