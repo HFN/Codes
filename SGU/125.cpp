@@ -29,7 +29,7 @@ int d(int y, int x)
 	if (w[y][x] < w[y - 1][x])
 		ans++;
 	if (w[y][x] < w[y + 1][x])
-		ans++;
+		ans++; 
 	if (w[y][x] < w[y][x - 1])
 		ans++;
 	if (w[y][x] < w[y][x + 1])
