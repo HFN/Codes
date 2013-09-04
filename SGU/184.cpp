@@ -21,6 +21,7 @@ const int INF = INT_MAX;
 const int MOD = 1000000007;
 int main()
 {
+    ios::sync_with_stdio(false);
     int p, m, c, k, r, v, n = 10001;
     cin >> p >> m >> c >> k >> r >> v;
     if (p / k < n)
