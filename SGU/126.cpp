@@ -42,7 +42,7 @@ int main()
     }
     if (c != INF)
     	cout << c;
-    else
+    else 
         cout << -1;
     return 0;
 }
