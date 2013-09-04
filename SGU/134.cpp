@@ -39,8 +39,8 @@ void dfs(int p, int v)
 }
 int main()
 {
-	ios::sync_with_stdio(false);
-	cin >> n;
+    ios::sync_with_stdio(false);
+    cin >> n;
     for (int i = 1; i < n; i++)
 	{
         int a, b;
@@ -58,8 +58,8 @@ int main()
             c++;
     cout << ans << " " << c << endl;
 	for (int i = 1; i <= n; i++)
-		if (answer[i] == ans)
-			cout << i << endl;
+	    if (answer[i] == ans)
+		cout << i << endl;
     cout << endl;
     return 0;
 }
