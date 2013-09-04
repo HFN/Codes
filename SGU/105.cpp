@@ -21,7 +21,7 @@ const int INF = INT_MAX;
 const int MOD = 1000000007;
 int main()
 {
-	ios::sync_with_stdio(false);
+    ios::sync_with_stdio(false);
     ll n;
     cin >> n;
     if (n % 3 == 0)
