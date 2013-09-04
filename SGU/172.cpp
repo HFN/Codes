@@ -30,7 +30,7 @@ void bfs(int n)
 	d[n] = 0;
 	while (!q.empty())
 	{
-		int v = q.front();
+		int v = q.front(); 
 		q.pop();
 		for (int i = 0; i < adj[v].size(); i++)
 		{
