@@ -30,5 +30,5 @@ int main()
        cout << (n - 1) * 2 / 3;
     if (n % 3 == 2)
        cout << (n - 2) * 2 / 3 + 1;
-	return 0;
+    return 0;
 }
