@@ -64,7 +64,6 @@ int main()
 	ios::sync_with_stdio(false);
 	memset(dp, -1, sizeof(dp));
 	cin >> n >> k;
-	ll ans = 0;
 	cout << bt(n, k, 0);
  	return 0;
 }
