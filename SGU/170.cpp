@@ -17,7 +17,7 @@
 #define y second
 using namespace std;
 const ll LONGINF = LLONG_MAX;
-const int INF = INT_MAX;
+const int INF = INT_MAX; 
 const int MOD = 1000000007;
 int main()
 {
