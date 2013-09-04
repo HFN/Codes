@@ -27,6 +27,7 @@ int sq(int n)
 }
 int main()
 {
+    ios::sync_with_stdio(false);
     int n, c = 0;
     cin >> n;
     bool b[n + 1];
