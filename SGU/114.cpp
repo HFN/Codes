@@ -24,7 +24,7 @@ int main()
     ios::sync_with_stdio(false);
     float ans = 0;
     int n, x, p, po = 0;
-    cin >> n;
+    cin >> n; 
     for (int i = 0; i < n; i++)
     {
         cin >> x >> p;
