@@ -37,7 +37,7 @@ int main()
 			for (int j = 0; j < i; j++)
 				cout << s[j];
 			cout << ')';
-      int t = (s.length() - dp[i] - i) / 2;
+      			int t = (s.length() - dp[i] - i) / 2;
 			for (int j = 0; j < t; j++, i++)
 				cout << '(';
 			i++;
