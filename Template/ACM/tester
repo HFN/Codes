@@ -1,0 +1,18 @@
+@ECHO OFF
+
+SET generator=%1
+SET checkProgram=%2
+SET correctProgram=%3
+
+for /l %%x in (1, 0, 1) do (
+%generator% > test.in
+if %errorlevel% neq 0 exit
+%checkProgram% < test.in > test1.out
+if %errorlevel% neq 0 exit
+%correctProgram% < test.in > test2.out
+if %errorlevel% neq 0 exit
+FC test1.out test2.out
+if %errorlevel% neq 0 exit
+del test.in test1.out test2.out
+timeout 1 /NOBREAK
+)
