@@ -1,1 +1,4 @@
-# ACM templates, Accepted codes, Well known algorithms
+# Codes
+ACM templates
+Accepted codes in online judges
+Well known algorithms
