@@ -1,5 +1,5 @@
 # Codes
-ACM templates
+ACM template
 
 Accepted codes in online judges
 
