@@ -1,3 +1,1 @@
-# ACM template
-# Accepted codes
-# Well known algorithms
+# ACM templates, Accepted codes, Well known algorithms
